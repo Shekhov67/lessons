@@ -51,7 +51,7 @@
 #Функции
 
 def minimal(l):
-    number = l[1]
+    number = l[0]
     for el in l:
         if el < number:
             number = el
