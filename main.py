@@ -50,15 +50,28 @@
 
 #Функции
 
-def minimal(l):
-    number = l[0]
-    for el in l:
-        if el < number:
-            number = el
-    print(number)
+# def minimal(l):
+#     number = l[0]
+#     for el in l:
+#         if el < number:
+#             number = el
+#     print(number)
+#
+# numbers = [5, 2 ,5 , 8, 3, 56]
+# minimal(numbers)
 
-numbers = [5, 2 ,5 , 8, 3, 56]
-minimal(numbers)
+#Работа с файлами
+
+
+# file = open("data/text.txt", 'a')
+# file.write('Hello\n')
+# file.write('!!!\n')
+# file.close()
+
+data = input("Введите текст:")
+file = open('data/text.txt', 'a')
+file.write(data + '\n')
+file.close()
 
 
 
