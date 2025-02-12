@@ -83,8 +83,7 @@ except ZeroDivisionError:
     print('Деление на ноль!')
 except TypeError:
     print('Введите число!')
-else:
-    print('else')
+
 
 
 
