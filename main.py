@@ -68,10 +68,25 @@
 # file.write('!!!\n')
 # file.close()
 
-data = input("Введите текст:")
-file = open('data/text.txt', 'a')
-file.write(data + '\n')
-file.close()
+# data = input("Введите текст:")
+# file = open('data/text.txt', 'a')
+# file.write(data + '\n')
+# file.close()
+
+#Обработчик
+
+try:
+    y = 1
+    x = 5 / y
+    print(x)
+except ZeroDivisionError:
+    print('Деление на ноль!')
+except TypeError:
+    print('Введите число!')
+else:
+    print('else')
+
+
 
 
 
